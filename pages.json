@@ -1,0 +1,122 @@
+{
+	"pages": [
+		{
+			"path": "pages/onboarding/onboarding",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile-setup/profile-setup",
+			"style": {
+				"navigationBarTitleText": "建立成长档案"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "成长仪表盘"
+			}
+		},
+		{
+			"path": "pages/profile-edit/profile-edit",
+			"style": {
+				"navigationBarTitleText": "我的档案"
+			}
+		},
+		{
+			"path": "pages/quiz-start/quiz-start",
+			"style": {
+				"navigationBarTitleText": "快速测评"
+			}
+		},
+		{
+			"path": "pages/quiz-question/quiz-question",
+			"style": {
+				"navigationBarTitleText": "测评"
+			}
+		},
+		{
+			"path": "pages/report-result/report-result",
+			"style": {
+				"navigationBarTitleText": "你的成长报告"
+			}
+		},
+		{
+			"path": "pages/report-history/report-history",
+			"style": {
+				"navigationBarTitleText": "历史报告"
+			}
+		},
+		{
+			"path": "pages/action-plan/action-plan",
+			"style": {
+				"navigationBarTitleText": "30天行动计划"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/disclaimer/disclaimer",
+			"style": {
+				"navigationBarTitleText": "免责声明"
+			}
+		},
+		{
+			"path": "pages/product-detail/product-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/product-list/product-list",
+			"style": {
+				"navigationBarTitleText": "营养品商城"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "成长助手",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#00C9A7",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tabbar/1.png",
+				"selectedIconPath": "static/tabbar/1.png"
+			},
+			{
+				"pagePath": "pages/quiz-start/quiz-start",
+				"text": "测评",
+				"iconPath": "static/tabbar/2.png",
+				"selectedIconPath": "static/tabbar/2.png"
+			},
+			{
+				"pagePath": "pages/report-result/report-result",
+				"text": "报告",
+				"iconPath": "static/tabbar/3.png",
+				"selectedIconPath": "static/tabbar/3.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我的",
+				"iconPath": "static/tabbar/4.png",
+				"selectedIconPath": "static/tabbar/4.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
